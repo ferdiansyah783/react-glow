@@ -3,7 +3,7 @@ import React from "react";
 const Content = () => {
   return (
     <div className="">
-      <div className="flex flex-col h-[120vh] items-center justify-center space-y-8 bg-fixed bg-gradient-to-t from-primary to-secondary">
+      <div className="flex flex-col h-screen items-center justify-center space-y-8 bg-local bg-gradient-to-t from-primary to-secondary">
         <h1 className="text-5xl">
           <span className="bg-white text-primary px-2 rounded-xl font-extrabold mr-2 shadow-sm">
             Hi
@@ -14,8 +14,8 @@ const Content = () => {
         </h1>
         <button className="bg-white px-4 py-2 rounded-full text-gray-400 shadow-sm">about me</button>
       </div>
-      <div className="h-[120vh] bg-fixed bg-gradient-to-t from-primary to-secondary">h1</div>
-      <div className="h-[120vh] bg-fixed bg-gradient-to-t from-primary to-secondary">h1</div>
+      <div className="h-screen bg-local bg-gradient-to-t from-primary to-secondary">h1</div>
+      <div className="h-screen bg-local bg-gradient-to-t from-primary to-secondary">h1</div>
     </div>
   );
 };
