@@ -27,7 +27,7 @@ const Header = () => {
         <div
           className={`${
             hamburger === true ? "block" : "hidden"
-          } w-1/2 top-4 right-6 rounded-xl absolute bg-white text-gray-500 flex flex-col space-y-5 text-xl pl-5 font-bold py-[10%] text-left`}
+          } w-1/2 top-4 right-6 shadow-sm rounded-xl absolute bg-white text-gray-500 flex flex-col space-y-5 text-xl pl-5 font-bold py-[10%] text-left`}
         >
           <h1>Home</h1>
           <h1>About</h1>
