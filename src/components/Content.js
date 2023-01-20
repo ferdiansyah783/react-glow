@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = () => {
   return (
-    <div className="w-full h-[300vh] grid grid-rows-3 bg-fixed bg-gradient-to-t from-primary to-secondary">
+    <div className="w-full h-[330vh] grid grid-rows-3 bg-fixed bg-gradient-to-t from-primary to-secondary">
       <div className="flex flex-col items-center justify-center space-y-8">
         <h1 className="text-5xl">
           <span className="bg-white text-primary px-2 rounded-xl font-extrabold mr-2 shadow-sm">
