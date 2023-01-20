@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className="w-full fixed top-0">
       <div className="relative flex justify-end">
-        <button onClick={handleHamburger} className="space-y-2 m-7 z-50">
+        <button onClick={handleHamburger} className={`${hamburger === true ? 'scale-75' : ''} transition duration-300 ease-in-out space-y-2 m-7 z-50`}>
           <div
             className={`hamburger-line origin-top-left ${
               hamburger === true ? "rotate-45" : "w-9"
@@ -27,7 +27,7 @@ const Header = () => {
         <div
           className={`${
             hamburger === true ? "block" : "hidden"
-          } w-1/2 top-4 right-6 shadow-sm rounded-xl absolute bg-white text-gray-500 flex flex-col space-y-5 text-xl pl-5 font-bold py-[10%] text-left`}
+          } w-1/2 top-4 right-6 shadow-sm rounded-xl absolute bg-white text-gray-500 flex flex-col space-y-6 text-xl pl-5 font-bold py-[10%] text-left`}
         >
           <h1>Home</h1>
           <h1>About</h1>
