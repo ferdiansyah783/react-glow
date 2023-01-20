@@ -26,7 +26,7 @@ const Content = () => {
             me
           </span>
         </h1>
-        <p className="px-10 whitespace-pre-line text-center text-sm text-gray-400">
+        <p className="px-7 whitespace-pre-line text-center text-sm text-gray-400">
           I have an educational background in software engineering. I am used to
           using Visual Studio Code. I am a fresh graduate with a curiosity in
           the world of programming. Able to work as a team and continuously
