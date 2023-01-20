@@ -6,7 +6,7 @@ const Header = () => {
   const handleHamburger = () => setHamburger((value) => !value);
 
   return (
-    <div className="w-full fixed top-0">
+    <div className="w-full fixed top-0 z-[999]">
       <div className="relative flex justify-end">
         <button onClick={handleHamburger} className={`${hamburger === true ? 'scale-75' : ''} transition duration-300 ease-in-out space-y-2 m-7 z-50`}>
           <div
