@@ -20,6 +20,10 @@
     @apply flex flex-col h-screen bg-gradient-to-t from-primary to-secondary items-center justify-center;
 }
 
+.content > div:nth-child(4) {
+    @apply flex flex-col h-screen bg-gradient-to-b from-primary to-secondary items-center justify-center;
+}
+
 .text-shadow {
-    text-shadow: 2px 1px 3px #d1d5db;
+    text-shadow: 3px 2px 3px #d1d5db;
 }

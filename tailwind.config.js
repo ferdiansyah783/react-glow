@@ -9,6 +9,9 @@ module.exports = {
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif']
+      },
+      backgroundSize: {
+        '150%': '150%'
       }
     },
   },
