@@ -1,7 +1,7 @@
 import React from "react";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { BsFacebook, BsGithub } from "react-icons/bs";
-import { AiFillInstagram, AiFillGitlab } from "react-icons/ai";
+import { AiFillInstagram, AiFillGitlab, AiOutlineArrowDown } from "react-icons/ai";
 
 const Content = () => {
   return (
@@ -15,8 +15,9 @@ const Content = () => {
             I am ferdi
           </span>
         </h1>
-        <button className="bg-white px-4 py-2 rounded-full text-gray-400 drop-shadow-md">
-          about me
+        <button className="bg-white px-4 py-2 rounded-full text-gray-400 drop-shadow-md flex items-center space-x-1">
+          <p>about me</p>
+          <AiOutlineArrowDown />
         </button>
       </div>
 
@@ -27,7 +28,7 @@ const Content = () => {
             me
           </span>
         </h1>
-        <p className="px-8 text-center text-sm text-gray-400">
+        <p className="px-7 text-center text-sm text-gray-400">
           I have an educational background in software engineering. I am used to
           using Visual Studio Code. I am a fresh graduate with a curiosity in
           the world of programming. Able to work as a team and continuously
