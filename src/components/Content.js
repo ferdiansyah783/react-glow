@@ -16,7 +16,7 @@ const Content = () => {
           </span>
         </h1>
         <button className="bg-white px-4 py-2 rounded-full text-gray-400 drop-shadow-md flex items-center space-x-1">
-          <a href="#about" className="transition duration-300">about me</a>
+          <a href="#about">about me</a>
           <AiOutlineArrowDown />
         </button>
       </div>

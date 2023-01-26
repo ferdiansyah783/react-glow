@@ -4,6 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 .hamburger-line {
     @apply h-1 bg-gray-500 transition duration-300 ease-in-out rounded-full;
 }
