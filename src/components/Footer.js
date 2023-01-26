@@ -14,10 +14,10 @@ const Footer = () => {
         </div>
         <div className="leading-7 text-gray-400 font-semibold">
           <h1 className="font-black text-3xl my-2 text-white text-shadow">Quick Menu</h1>
-          <p>Home</p>
-          <p>About</p>
-          <p>Portofolio</p>
-          <p>Contact</p>
+          <a href="#home" className="block">Home</a>
+          <a href="#about" className="block">About</a>
+          <a href="#portofolio" className="block">Portofolio</a>
+          <a href="#contact" className="block">Contact</a>
         </div>
         <div className="leading-7 text-gray-400 font-semibold">
           <h1 className="font-black text-3xl my-2 text-white text-shadow">Social</h1>
