@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-gradient-to-t from-primary via-primary to-secondary">
       <div className="h-1 w-[90%] bg-white drop-shadow-md mx-auto rounded-full mb-16"></div>
-      <div className="flex flex-col px-7 h-screen items-center text-center space-y-10">
+      <div className="flex flex-col p-7 items-center text-center space-y-10">
         <div className="leading-7 text-xl font-semibold text-gray-400 ">
           <h1 className="font-black text-4xl my-2 text-white text-shadow">Quick Menu</h1>
           <p>Home</p>
