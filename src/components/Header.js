@@ -29,10 +29,10 @@ const Header = () => {
             hamburger === true ? "block" : "hidden"
           } w-1/2 top-4 right-6 shadow-sm rounded-xl absolute bg-white text-gray-500 flex flex-col space-y-6 text-xl pl-5 font-bold py-[10%] text-left`}
         >
-          <h1>Home</h1>
-          <h1>About</h1>
-          <h1>Portofolio</h1>
-          <h1>Contact</h1>
+          <h1><a href="#home" className="transition duration-300">Home</a></h1>
+          <h1><a href="#about" className="transition duration-300">About</a></h1>
+          <h1><a href="#portofolio" className="transition duration-300">Portofolio</a></h1>
+          <h1><a href="#contact" className="transition duration-300">Contact</a></h1>
         </div>
       </div>
     </div>

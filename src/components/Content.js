@@ -6,7 +6,7 @@ import { AiFillInstagram, AiFillGitlab, AiOutlineArrowDown } from "react-icons/a
 const Content = () => {
   return (
     <div className="content">
-      <div className="space-y-8">
+      <div id="home" className="space-y-8">
         <h1 className="text-5xl">
           <span className="bg-white text-primary px-2 rounded-xl font-extrabold mr-2 drop-shadow-lg">
             Hi
@@ -16,12 +16,12 @@ const Content = () => {
           </span>
         </h1>
         <button className="bg-white px-4 py-2 rounded-full text-gray-400 drop-shadow-md flex items-center space-x-1">
-          <p>about me</p>
+          <a href="#about" className="transition duration-300">about me</a>
           <AiOutlineArrowDown />
         </button>
       </div>
 
-      <div className="space-y-6">
+      <div id="about" className="space-y-6">
         <h1 className="text-5xl">
           <span className="text-white font-bold text-shadow mr-2">About</span>
           <span className="bg-white text-primary px-2 rounded-xl font-extrabold drop-shadow-lg">
@@ -36,7 +36,7 @@ const Content = () => {
         </p>
       </div>
 
-      <div className="px-7 space-y-5">
+      <div id="portofolio" className="px-7 space-y-5">
         <h1 className="text-5xl">
           <span className="bg-white text-primary px-2 rounded-xl mr-2 font-extrabold drop-shadow-lg">
             My
@@ -62,7 +62,7 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="px-7 space-y-2">
+      <div id="contact" className="px-7 space-y-2">
         <h1 className="text-[44px]">
           <span className="text-white font-bold text-shadow mr-2">Let's</span>
           <span className="bg-white text-primary px-2 rounded-xl font-extrabold drop-shadow-lg">
