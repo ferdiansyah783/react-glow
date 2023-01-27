@@ -1,14 +1,10 @@
 import React from 'react'
-import Header from './components/Header'
-import Content from './components/Content'
-import Footer from './components/Footer'
+import Index from './components/Index'
 
 const App = () => {
   return (
     <div className='font-poppins scroll-smooth'>
-      <Header/>
-      <Content/>
-      <Footer/>
+      <Index />
     </div>
   )
 }

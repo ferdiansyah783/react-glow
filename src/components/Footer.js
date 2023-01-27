@@ -1,30 +1,50 @@
 import React from "react";
 
-const Footer = () => {
+const Footer = ({ homeRef, aboutRef, portofolioRef, contactRef }) => {
+
+  const scrollTo = (ref) => {
+    window.scrollTo({
+      top: ref.offsetTop,
+    });
+  };
+
   return (
     <div className="w-full bg-gradient-to-t from-primary via-primary to-secondary">
       <div className="h-1 w-[90%] bg-white drop-shadow-md mx-auto rounded-full mb-16"></div>
-      <div className="flex flex-col p-7 items-center text-center space-y-6">
+      <div className="flex flex-col p-7 items-center text-center space-y-7">
         <div className="leading-7 text-gray-400 font-semibold">
-          <h1 className="font-black text-3xl my-2 text-white text-shadow">Contact</h1>
+          <h1 className="font-black text-3xl my-2 text-white text-shadow">
+            Contact
+          </h1>
           <p>Cepogo RT 02 RW 07</p>
           <p>Kembang Jepara</p>
           <p>Wa: 087894573986</p>
           <p>Tel: 087894573986</p>
         </div>
         <div className="leading-7 text-gray-400 font-semibold">
-          <h1 className="font-black text-3xl my-2 text-white text-shadow">Quick Menu</h1>
-          <a href="#home" className="block">Home</a>
-          <a href="#about" className="block">About</a>
-          <a href="#portofolio" className="block">Portofolio</a>
-          <a href="#contact" className="block">Contact</a>
+          <h1 className="font-black text-3xl my-2 text-white text-shadow">
+            Quick Menu
+          </h1>
+          <p onClick={() => scrollTo(homeRef.current)} className="block">
+            Home
+          </p>
+          <p onClick={() => scrollTo(aboutRef.current)} className="block">
+            About
+          </p>
+          <p onClick={() => scrollTo(portofolioRef.current)} className="block">
+            Portofolio
+          </p>
+          <p onClick={() => scrollTo(contactRef.current)} className="block">
+            Contact
+          </p>
         </div>
         <div className="leading-7 text-gray-400 font-semibold">
-          <h1 className="font-black text-3xl my-2 text-white text-shadow">Social</h1>
-          <p>Whatsapp</p>
+          <h1 className="font-black text-3xl my-2 text-white text-shadow">
+            Social
+          </h1>
+          <p>Twitter</p>
           <p>Facebook</p>
           <p>Instagram</p>
-          <p>Telegram</p>
         </div>
         <div className="leading-4 text-gray-400">
           <p>@2023 by Muhammad Ferdiansyah</p>
