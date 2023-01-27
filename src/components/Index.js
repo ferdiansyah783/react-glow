@@ -137,7 +137,7 @@ const Index = () => {
         </div>
 
         <div className="relative">
-          <a href="whatsapp://send?phone=+6287894573986" className="fixed p-5 bg-white bottom-7 right-7 rounded-full drop-shadow-md">
+          <a href="mailto:mtskrmmarzuki67@gmail.com" className="fixed p-5 bg-white bottom-7 right-7 rounded-full drop-shadow-md">
               <BsFillChatDotsFill className="text-3xl text-gray-500" />
           </a>
         </div>
