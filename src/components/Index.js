@@ -1,13 +1,13 @@
 import React, { useRef } from "react";
-import { IoLogoWhatsapp } from "react-icons/io";
-import { BsFacebook, BsGithub } from "react-icons/bs";
 import {
-  AiFillInstagram,
   AiFillGitlab,
+  AiFillInstagram,
+  AiFillTwitterCircle,
   AiOutlineArrowDown,
 } from "react-icons/ai";
-import Header from "./Header";
+import { BsFacebook, BsGithub, BsFillChatDotsFill } from "react-icons/bs";
 import Footer from "./Footer";
+import Header from "./Header";
 
 const Index = () => {
   const homeRef = useRef(null);
@@ -44,7 +44,7 @@ const Index = () => {
           </h1>
           <button
             onClick={() => goTo(aboutRef.current)}
-            className="bg-white px-4 py-2 rounded-full text-gray-400 drop-shadow-md flex items-center space-x-1"
+            className="bg-white px-4 py-2 rounded-full text-gray-400 drop-shadow-md flex items-center space-x-1 hover:bg-slate-50"
           >
             <p>about me</p>
             <AiOutlineArrowDown />
@@ -103,22 +103,43 @@ const Index = () => {
             </span>
           </h1>
           <div className="flex space-x-2">
-            <div className="bg-white p-3 rounded-full drop-shadow-sm">
-              <IoLogoWhatsapp className="text-3xl text-gray-500" />
-            </div>
-            <div className="bg-white p-3 rounded-full">
+            <a
+              href="https://twitter.com/WOLFY1407"
+              className="bg-white p-3 rounded-full drop-shadow-sm"
+            >
+              <AiFillTwitterCircle className="text-3xl text-gray-500" />
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100069487220504"
+              className="bg-white p-3 rounded-full"
+            >
               <BsFacebook className="text-3xl text-gray-500" />
-            </div>
-            <div className="bg-white p-3 rounded-full">
+            </a>
+            <a
+              href="https://www.instagram.com/ferdiansyah_x/?hl=id"
+              className="bg-white p-3 rounded-full"
+            >
               <AiFillInstagram className="text-3xl text-gray-500" />
-            </div>
-            <div className="bg-white p-3 rounded-full">
+            </a>
+            <a
+              href="https://github.com/ferdiansyah783"
+              className="bg-white p-3 rounded-full"
+            >
               <BsGithub className="text-3xl text-gray-500" />
-            </div>
-            <div className="bg-white p-3 rounded-full">
+            </a>
+            <a
+              href="https://gitlab.com/ferdiansyah783"
+              className="bg-white p-3 rounded-full"
+            >
               <AiFillGitlab className="text-3xl text-gray-500" />
-            </div>
+            </a>
           </div>
+        </div>
+
+        <div className="relative">
+          <a href="whatsapp://send?phone=+6287894573986" className="fixed p-5 bg-white bottom-7 right-7 rounded-full drop-shadow-md">
+              <BsFillChatDotsFill className="text-3xl text-gray-500" />
+          </a>
         </div>
       </section>
 

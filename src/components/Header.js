@@ -40,13 +40,13 @@ const Header = ({ homeRef, aboutRef, portofolioRef, contactRef }) => {
         <div
           className={`${
             hamburger === true ? "block" : "hidden"
-          } w-1/2 top-4 right-6 shadow-sm rounded-xl absolute bg-white text-gray-500 flex flex-col text-xl pl-5 font-bold py-[10%] text-left`}
+          } w-1/2 top-4 right-6 shadow-sm rounded-xl absolute bg-white flex flex-col pl-5 py-[10%]`}
         >
-          <ul className="space-y-6">
-            <li onClick={() => scrollTo(homeRef.current)}>Home</li>
-            <li onClick={() => scrollTo(aboutRef.current)}>About</li>
-            <li onClick={() => scrollTo(portofolioRef.current)}>Portofolio</li>
-            <li onClick={() => scrollTo(contactRef.current)}>Contact</li>
+          <ul className="space-y-6 text-left text-xl font-bold text-gray-500">
+            <li className="hover:text-gray-900" onClick={() => scrollTo(homeRef.current)}>Home</li>
+            <li className="hover:text-gray-900" onClick={() => scrollTo(aboutRef.current)}>About</li>
+            <li className="hover:text-gray-900" onClick={() => scrollTo(portofolioRef.current)}>Portofolio</li>
+            <li className="hover:text-gray-900" onClick={() => scrollTo(contactRef.current)}>Contact</li>
           </ul>
         </div>
       </div>

@@ -42,9 +42,9 @@ const Footer = ({ homeRef, aboutRef, portofolioRef, contactRef }) => {
           <h1 className="font-black text-3xl my-2 text-white text-shadow">
             Social
           </h1>
-          <p>Twitter</p>
-          <p>Facebook</p>
-          <p>Instagram</p>
+          <a className="block" href="https://twitter.com/WOLFY1407">Twitter</a>
+          <a className="block" href="https://www.facebook.com/profile.php?id=100069487220504">Facebook</a>
+          <a className="block" href="https://www.instagram.com/ferdiansyah_x/?hl=id">Instagram</a>
         </div>
         <div className="leading-4 text-gray-400">
           <p>@2023 by Muhammad Ferdiansyah</p>
